@@ -1,6 +1,6 @@
 Project title: Human memory CD4+ T-cells recognize Mycobacterium tuberculosis-infected macrophages amid broader pathogen-specific responses.
 
-The following R script consists of the followings parts:
+The script consists of the followings parts:
 
 # I. Preintegration processing
 --- 1. Preparing the session
