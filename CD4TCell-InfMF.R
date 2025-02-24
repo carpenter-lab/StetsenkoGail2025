@@ -974,7 +974,15 @@ CL_harmony_all@meta.data <- CL_harmony_all@meta.data %>% dplyr::mutate(Known_ags
                                                                                              CTaa == 'CAASGSSNTGKLIF_CASSTSGTKYNEQFF' ~ 'S%SGTKYNE (EccE3)',
                                                                                              CTaa == 'CAAVGSSNTGKLIF_CASSRSGTKYNEQFF' ~ 'S%SGTKYNE (EccE3)',
                                                                                              CTaa == 'CAASPGDSGGYNKLIF_CASSTSGTKYNEQFF' ~ 'S%SGTKYNE (EccE3)',
-                                                                                             CTaa == 'CAASSPGGQKLLF_CASSKSGTKYNEQFF' ~ 'S%SGTKYNE (EccE3)'))
+                                                                                             CTaa == 'CAASSPGGQKLLF_CASSKSGTKYNEQFF' ~ 'S%SGTKYNE (EccE3)',
+                                                                                             CTaa == 'CATAKTGANNLFF_CASSSPGQGGLNYGYTF' ~ 'SSPGQGG%NYG (DacB1)',
+                                                                                             CTaa == 'CATARTGANNLFF_CASSSPGQGGNNYGYTF' ~ 'SSPGQGG%NYG (DacB1)',
+                                                                                             CTaa == 'CATARTGANNLFF_CASSSPGQGGSNYGYTF' ~ 'SSPGQGG%NYG (DacB1)',
+                                                                                             CTaa == 'CATARTGANNLFF_CASSSPGQGGANYGYTF' ~ 'SSPGQGG%NYG (DacB1)',
+                                                                                             CTaa == 'CATPNSGNTPLVF_CASSSPGQGGANYGYTF' ~ 'SSPGQGG%NYG (DacB1)',
+                                                                                             CTaa == 'CATASTGANNLFF_CASSSPGQGGVNYGYTF' ~ 'SSPGQGG%NYG (DacB1)',
+                                                                                             CTaa == 'CATPNSGNTPLVF_CASSSPGQGGANYGYTF' ~ 'SSPGQGG%NYG (DacB1)',
+                                                                                             CTaa == 'CATSRTGANNLFF_CASSSPGQGGANYGYTF' ~ 'SSPGQGG%NYG (DacB1)'))
 
 # Visualizing the data
 
@@ -1037,14 +1045,6 @@ CL_harmony_all@meta.data <- CL_harmony_all@meta.data %>% dplyr::mutate(Resp_to_i
                                                                                                          CTaa == 'CAVYTSGTYKYIF_CSASMPEAFF' ~ '%MPE',
                                                                                                          CTaa == 'CIVRDGSSNTGKLIF_CSANMPEAFF' ~ '%MPE',
                                                                                                          CTaa == 'NA_CSASMPEAFF' ~ '%MPE',
-                                                                                                         CTaa == 'CATAKTGANNLFF_CASSSPGQGGLNYGYTF' ~ 'SSPGQGG%NYG',
-                                                                                                         CTaa == 'CATARTGANNLFF_CASSSPGQGGNNYGYTF' ~ 'SSPGQGG%NYG',
-                                                                                                         CTaa == 'CATARTGANNLFF_CASSSPGQGGSNYGYTF' ~ 'SSPGQGG%NYG',
-                                                                                                         CTaa == 'CATARTGANNLFF_CASSSPGQGGANYGYTF' ~ 'SSPGQGG%NYG',
-                                                                                                         CTaa == 'CATPNSGNTPLVF_CASSSPGQGGANYGYTF' ~ 'SSPGQGG%NYG',
-                                                                                                         CTaa == 'CATASTGANNLFF_CASSSPGQGGVNYGYTF' ~ 'SSPGQGG%NYG',
-                                                                                                         CTaa == 'CATPNSGNTPLVF_CASSSPGQGGANYGYTF' ~ 'SSPGQGG%NYG',
-                                                                                                         CTaa == 'CATSRTGANNLFF_CASSSPGQGGANYGYTF' ~ 'SSPGQGG%NYG',
                                                                                                          CTaa == 'CAGSGSARQLTF_CASSLVAGPYEQYF' ~ 'SLV%GPYE',
                                                                                                          CTaa == 'CAGSGSARQLTF_CASSLVGGPYEQYF' ~ 'SLV%GPYE',
                                                                                                          CTaa == 'CAGSGSARQLTF_CASSLVQGPYEQYF' ~ 'SLV%GPYE',
